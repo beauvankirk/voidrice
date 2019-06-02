@@ -1,73 +1,74 @@
+# vim: set filetype=i3blocks 
 command=~/.local/bin/statusbar/$BLOCK_NAME
 separator_block_width=15
 markup=pango
 
-[record]
-command=cat /tmp/recordingicon
-interval=once
-signal=9
+#[record]
+#command=cat /tmp/recordingicon
+#interval=once
+#signal=9
 
-[music]
+[vr-music]
 label=🎼
 interval=once
 signal=11
 
-[news]
+[vr-news]
 label=📰
 interval=once
 signal=6
 
-#[iplocate]
+#[vr-iplocate]
 #interval=30
 
-[pacpackages]
-label=📦
-interval=once
-signal=8
+#[vr-pacpackages]
+#label=📦
+#interval=once
+#signal=8
 
-[torrent]
-interval=20
-signal=7
+#[vr-torrent]
+#interval=20
+#signal=7
 
-[weather]
+[vr-weather]
 interval=18000
 signal=5
 
-[mailbox]
-label=📬
-interval=180
-signal=12
+#[vr-mailbox]
+#label=📬
+#interval=180
+#signal=12
 
-#[memory]
+#[vr-memory]
 #interval=30
 #label=🧠
 
-#[cpu]
+#[vr-cpu]
 #interval=15
 #label=💻
 
-[volume]
+[vr-volume]
 interval=once
 signal=10
 
-#[disk]
+#[vr-disk]
 #interval=60
 #command=disk /
 
-#[disk]
+#[vr-disk]
 #interval=60
 #command=disk /home 🏠
 
-[battery]
-command=battery BAT0
-interval=5
+#[vr-battery]
+#command=battery BAT0
+#interval=5
 
-[clock]
+[vr-clock]
 label=📅
 interval=30
 
-[internet]
+[vr-internet]
 interval=10
 
-[help]
-interval=once
+#[vr-help]
+#interval=once
